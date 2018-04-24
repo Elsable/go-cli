@@ -2,11 +2,20 @@
 
 A sample cli application in golang using cobra and boltdb.
 
-# 
+Uses Dep for dependency management.
+
+
+# Build
+
+```bash
+$ git clone https://github.com/samparsky/go-cli
+$ go install .
+```
+
 
 ### Add task
 
-```sh
+```bash
 $ task add Fetch water
 $ task add Visit grocery
 $ task add Call mama
@@ -14,7 +23,7 @@ $ task add Call mama
 
 ### List task
 
-```sh
+```bash
 
 $ task list
 
@@ -26,7 +35,7 @@ You have the following tasks
 
 ### Do Tasks
 
-```sh
+```bash
 $ task do 1
 
 Marked "1" as completed.
